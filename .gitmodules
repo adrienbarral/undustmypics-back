@@ -1,0 +1,3 @@
+[submodule "undustpics-cv"]
+	path = undustpics-cv
+	url = git@github.com:adrienbarral/undustpics-cv.git
