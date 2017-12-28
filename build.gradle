@@ -26,5 +26,6 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('commons-io:commons-io:2.6')
+	compile('com.google.firebase:firebase-admin:5.6.0')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }

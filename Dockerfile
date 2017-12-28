@@ -23,3 +23,4 @@ RUN cd /tmp-build && \
 
 
 COPY build/libs/undustmypics-back-0.0.1-SNAPSHOT.jar /
+CMD ["java", "-jar", "undustmypics-back-0.0.1-SNAPSHOT.jar", "--undustexecutable=/undustpics-cv", "--firebasekeyfile=/conf/undustpics-firebase-adminsdk-v6ywq-c4d01d5b08.json"]

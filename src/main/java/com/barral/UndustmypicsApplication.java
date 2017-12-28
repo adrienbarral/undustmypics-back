@@ -1,11 +1,10 @@
-package com.barral.undustmypics;
+package com.barral;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.barral.controllers"})
 public class UndustmypicsApplication {
 
 	public static void main(String[] args) {
